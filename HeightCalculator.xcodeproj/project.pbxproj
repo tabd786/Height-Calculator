@@ -1,0 +1,476 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		5315CAD7189E89A800D5C666 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5315CAD6189E89A800D5C666 /* Foundation.framework */; };
+		5315CAD9189E89A800D5C666 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5315CAD8189E89A800D5C666 /* CoreGraphics.framework */; };
+		5315CADB189E89A800D5C666 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5315CADA189E89A800D5C666 /* UIKit.framework */; };
+		5315CAE1189E89A800D5C666 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 5315CADF189E89A800D5C666 /* InfoPlist.strings */; };
+		5315CAE3189E89A800D5C666 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 5315CAE2189E89A800D5C666 /* main.m */; };
+		5315CAE7189E89A800D5C666 /* TAAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 5315CAE6189E89A800D5C666 /* TAAppDelegate.m */; };
+		5315CAEA189E89A800D5C666 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5315CAE8189E89A800D5C666 /* Main.storyboard */; };
+		5315CAED189E89A800D5C666 /* TAViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 5315CAEC189E89A800D5C666 /* TAViewController.m */; };
+		5315CAEF189E89A800D5C666 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5315CAEE189E89A800D5C666 /* Images.xcassets */; };
+		5315CAF6189E89A800D5C666 /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5315CAF5189E89A800D5C666 /* XCTest.framework */; };
+		5315CAF7189E89A800D5C666 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5315CAD6189E89A800D5C666 /* Foundation.framework */; };
+		5315CAF8189E89A800D5C666 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5315CADA189E89A800D5C666 /* UIKit.framework */; };
+		5315CB00189E89A800D5C666 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 5315CAFE189E89A800D5C666 /* InfoPlist.strings */; };
+		5315CB02189E89A800D5C666 /* HeightCalculatorTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 5315CB01189E89A800D5C666 /* HeightCalculatorTests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		5315CAF9189E89A800D5C666 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 5315CACB189E89A800D5C666 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 5315CAD2189E89A800D5C666;
+			remoteInfo = HeightCalculator;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		5315CAD3189E89A800D5C666 /* HeightCalculator.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = HeightCalculator.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		5315CAD6189E89A800D5C666 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		5315CAD8189E89A800D5C666 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		5315CADA189E89A800D5C666 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		5315CADE189E89A800D5C666 /* HeightCalculator-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "HeightCalculator-Info.plist"; sourceTree = "<group>"; };
+		5315CAE0189E89A800D5C666 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		5315CAE2189E89A800D5C666 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		5315CAE4189E89A800D5C666 /* HeightCalculator-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "HeightCalculator-Prefix.pch"; sourceTree = "<group>"; };
+		5315CAE5189E89A800D5C666 /* TAAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TAAppDelegate.h; sourceTree = "<group>"; };
+		5315CAE6189E89A800D5C666 /* TAAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TAAppDelegate.m; sourceTree = "<group>"; };
+		5315CAE9189E89A800D5C666 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		5315CAEB189E89A800D5C666 /* TAViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TAViewController.h; sourceTree = "<group>"; };
+		5315CAEC189E89A800D5C666 /* TAViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TAViewController.m; sourceTree = "<group>"; };
+		5315CAEE189E89A800D5C666 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		5315CAF4189E89A800D5C666 /* HeightCalculatorTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = HeightCalculatorTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		5315CAF5189E89A800D5C666 /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
+		5315CAFD189E89A800D5C666 /* HeightCalculatorTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "HeightCalculatorTests-Info.plist"; sourceTree = "<group>"; };
+		5315CAFF189E89A800D5C666 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		5315CB01189E89A800D5C666 /* HeightCalculatorTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = HeightCalculatorTests.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		5315CAD0189E89A800D5C666 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5315CAD9189E89A800D5C666 /* CoreGraphics.framework in Frameworks */,
+				5315CADB189E89A800D5C666 /* UIKit.framework in Frameworks */,
+				5315CAD7189E89A800D5C666 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5315CAF1189E89A800D5C666 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5315CAF6189E89A800D5C666 /* XCTest.framework in Frameworks */,
+				5315CAF8189E89A800D5C666 /* UIKit.framework in Frameworks */,
+				5315CAF7189E89A800D5C666 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		5315CACA189E89A800D5C666 = {
+			isa = PBXGroup;
+			children = (
+				5315CADC189E89A800D5C666 /* HeightCalculator */,
+				5315CAFB189E89A800D5C666 /* HeightCalculatorTests */,
+				5315CAD5189E89A800D5C666 /* Frameworks */,
+				5315CAD4189E89A800D5C666 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		5315CAD4189E89A800D5C666 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				5315CAD3189E89A800D5C666 /* HeightCalculator.app */,
+				5315CAF4189E89A800D5C666 /* HeightCalculatorTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		5315CAD5189E89A800D5C666 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				5315CAD6189E89A800D5C666 /* Foundation.framework */,
+				5315CAD8189E89A800D5C666 /* CoreGraphics.framework */,
+				5315CADA189E89A800D5C666 /* UIKit.framework */,
+				5315CAF5189E89A800D5C666 /* XCTest.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		5315CADC189E89A800D5C666 /* HeightCalculator */ = {
+			isa = PBXGroup;
+			children = (
+				5315CAE5189E89A800D5C666 /* TAAppDelegate.h */,
+				5315CAE6189E89A800D5C666 /* TAAppDelegate.m */,
+				5315CAE8189E89A800D5C666 /* Main.storyboard */,
+				5315CAEB189E89A800D5C666 /* TAViewController.h */,
+				5315CAEC189E89A800D5C666 /* TAViewController.m */,
+				5315CAEE189E89A800D5C666 /* Images.xcassets */,
+				5315CADD189E89A800D5C666 /* Supporting Files */,
+			);
+			path = HeightCalculator;
+			sourceTree = "<group>";
+		};
+		5315CADD189E89A800D5C666 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				5315CADE189E89A800D5C666 /* HeightCalculator-Info.plist */,
+				5315CADF189E89A800D5C666 /* InfoPlist.strings */,
+				5315CAE2189E89A800D5C666 /* main.m */,
+				5315CAE4189E89A800D5C666 /* HeightCalculator-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		5315CAFB189E89A800D5C666 /* HeightCalculatorTests */ = {
+			isa = PBXGroup;
+			children = (
+				5315CB01189E89A800D5C666 /* HeightCalculatorTests.m */,
+				5315CAFC189E89A800D5C666 /* Supporting Files */,
+			);
+			path = HeightCalculatorTests;
+			sourceTree = "<group>";
+		};
+		5315CAFC189E89A800D5C666 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				5315CAFD189E89A800D5C666 /* HeightCalculatorTests-Info.plist */,
+				5315CAFE189E89A800D5C666 /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		5315CAD2189E89A800D5C666 /* HeightCalculator */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 5315CB05189E89A800D5C666 /* Build configuration list for PBXNativeTarget "HeightCalculator" */;
+			buildPhases = (
+				5315CACF189E89A800D5C666 /* Sources */,
+				5315CAD0189E89A800D5C666 /* Frameworks */,
+				5315CAD1189E89A800D5C666 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = HeightCalculator;
+			productName = HeightCalculator;
+			productReference = 5315CAD3189E89A800D5C666 /* HeightCalculator.app */;
+			productType = "com.apple.product-type.application";
+		};
+		5315CAF3189E89A800D5C666 /* HeightCalculatorTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 5315CB08189E89A800D5C666 /* Build configuration list for PBXNativeTarget "HeightCalculatorTests" */;
+			buildPhases = (
+				5315CAF0189E89A800D5C666 /* Sources */,
+				5315CAF1189E89A800D5C666 /* Frameworks */,
+				5315CAF2189E89A800D5C666 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				5315CAFA189E89A800D5C666 /* PBXTargetDependency */,
+			);
+			name = HeightCalculatorTests;
+			productName = HeightCalculatorTests;
+			productReference = 5315CAF4189E89A800D5C666 /* HeightCalculatorTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		5315CACB189E89A800D5C666 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				CLASSPREFIX = TA;
+				LastUpgradeCheck = 0500;
+				ORGANIZATIONNAME = "Tayyab Abdullah";
+				TargetAttributes = {
+					5315CAF3189E89A800D5C666 = {
+						TestTargetID = 5315CAD2189E89A800D5C666;
+					};
+				};
+			};
+			buildConfigurationList = 5315CACE189E89A800D5C666 /* Build configuration list for PBXProject "HeightCalculator" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 5315CACA189E89A800D5C666;
+			productRefGroup = 5315CAD4189E89A800D5C666 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				5315CAD2189E89A800D5C666 /* HeightCalculator */,
+				5315CAF3189E89A800D5C666 /* HeightCalculatorTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		5315CAD1189E89A800D5C666 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5315CAEF189E89A800D5C666 /* Images.xcassets in Resources */,
+				5315CAE1189E89A800D5C666 /* InfoPlist.strings in Resources */,
+				5315CAEA189E89A800D5C666 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5315CAF2189E89A800D5C666 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5315CB00189E89A800D5C666 /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		5315CACF189E89A800D5C666 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5315CAED189E89A800D5C666 /* TAViewController.m in Sources */,
+				5315CAE3189E89A800D5C666 /* main.m in Sources */,
+				5315CAE7189E89A800D5C666 /* TAAppDelegate.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5315CAF0189E89A800D5C666 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5315CB02189E89A800D5C666 /* HeightCalculatorTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		5315CAFA189E89A800D5C666 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 5315CAD2189E89A800D5C666 /* HeightCalculator */;
+			targetProxy = 5315CAF9189E89A800D5C666 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		5315CADF189E89A800D5C666 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				5315CAE0189E89A800D5C666 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		5315CAE8189E89A800D5C666 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				5315CAE9189E89A800D5C666 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		5315CAFE189E89A800D5C666 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				5315CAFF189E89A800D5C666 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		5315CB03189E89A800D5C666 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_INCLUDING_64_BIT)";
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		5315CB04189E89A800D5C666 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_INCLUDING_64_BIT)";
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		5315CB06189E89A800D5C666 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "HeightCalculator/HeightCalculator-Prefix.pch";
+				INFOPLIST_FILE = "HeightCalculator/HeightCalculator-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		5315CB07189E89A800D5C666 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "HeightCalculator/HeightCalculator-Prefix.pch";
+				INFOPLIST_FILE = "HeightCalculator/HeightCalculator-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		5315CB09189E89A800D5C666 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_INCLUDING_64_BIT)";
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/HeightCalculator.app/HeightCalculator";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "HeightCalculator/HeightCalculator-Prefix.pch";
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "HeightCalculatorTests/HeightCalculatorTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Debug;
+		};
+		5315CB0A189E89A800D5C666 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_INCLUDING_64_BIT)";
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/HeightCalculator.app/HeightCalculator";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "HeightCalculator/HeightCalculator-Prefix.pch";
+				INFOPLIST_FILE = "HeightCalculatorTests/HeightCalculatorTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		5315CACE189E89A800D5C666 /* Build configuration list for PBXProject "HeightCalculator" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5315CB03189E89A800D5C666 /* Debug */,
+				5315CB04189E89A800D5C666 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		5315CB05189E89A800D5C666 /* Build configuration list for PBXNativeTarget "HeightCalculator" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5315CB06189E89A800D5C666 /* Debug */,
+				5315CB07189E89A800D5C666 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		5315CB08189E89A800D5C666 /* Build configuration list for PBXNativeTarget "HeightCalculatorTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5315CB09189E89A800D5C666 /* Debug */,
+				5315CB0A189E89A800D5C666 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 5315CACB189E89A800D5C666 /* Project object */;
+}
